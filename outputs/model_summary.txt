@@ -1,0 +1,36 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                log_kpi   R-squared:                       0.793
+Model:                            OLS   Adj. R-squared:                  0.722
+Method:                 Least Squares   F-statistic:                     10.58
+Date:                Fri, 12 Sep 2025   Prob (F-statistic):           2.17e-08
+Time:                        01:12:07   Log-Likelihood:                 40.192
+No. Observations:                  48   AIC:                            -54.38
+Df Residuals:                      35   BIC:                            -30.06
+Df Model:                          12                                         
+Covariance Type:                  HC3                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                           5.1729      0.138     37.421      0.000       4.902       5.444
+dist_index                      0.6379      0.120      5.299      0.000       0.402       0.874
+tv_total_spends_mn_ad           0.0004      0.001      0.309      0.758      -0.002       0.003
+newspaper_spends_mn_ad          0.0206      0.061      0.339      0.735      -0.098       0.140
+google_display_spends_mn_ad    -0.1212      0.230     -0.528      0.597      -0.571       0.329
+youtube_spends_mn_ad           -0.0384      0.076     -0.509      0.611      -0.186       0.110
+fb_ig_spends_mn_ad              0.0358      0.101      0.355      0.723      -0.162       0.233
+whatsapp_spends_mn_ad           0.2349      0.688      0.341      0.733      -1.113       1.583
+jio_spends_mn_ad               -0.0337      0.218     -0.154      0.877      -0.462       0.394
+hotstar_spends_mn_ad            0.0935      0.059      1.582      0.114      -0.022       0.209
+ventes_avenue_spends_mn_ad      0.0684      0.436      0.157      0.875      -0.787       0.923
+trade_promo_spends_mn_ad        0.0084      0.007      1.142      0.254      -0.006       0.023
+consumer_promo_spends_mn_ad     0.0055      0.016      0.347      0.729      -0.026       0.037
+==============================================================================
+Omnibus:                       39.120   Durbin-Watson:                   1.371
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              129.163
+Skew:                          -2.135   Prob(JB):                     8.97e-29
+Kurtosis:                       9.807   Cond. No.                         972.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

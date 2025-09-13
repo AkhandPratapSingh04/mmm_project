@@ -1,0 +1,42 @@
+[
+  {
+    "pct_realloc": 0.05,
+    "total_realloc_mn": 39.271816067884615,
+    "gross_uplift_kpi": 968.1185832921401,
+    "conservative_uplift_kpi": 484.05929164607005,
+    "details": [
+      {
+        "recipient": "hotstar_spends_mn_ad",
+        "added_spend_mn": 19.635908033942307,
+        "roi": 17.62004046088502,
+        "expected_kpi_uplift": 345.98549404428064
+      },
+      {
+        "recipient": "whatsapp_spends_mn_ad",
+        "added_spend_mn": 19.635908033942307,
+        "roi": 31.683438737462534,
+        "expected_kpi_uplift": 622.1330892478595
+      }
+    ]
+  },
+  {
+    "pct_realloc": 0.1,
+    "total_realloc_mn": 78.54363213576923,
+    "gross_uplift_kpi": 1936.2371665842802,
+    "conservative_uplift_kpi": 968.1185832921401,
+    "details": [
+      {
+        "recipient": "hotstar_spends_mn_ad",
+        "added_spend_mn": 39.271816067884615,
+        "roi": 17.62004046088502,
+        "expected_kpi_uplift": 691.9709880885613
+      },
+      {
+        "recipient": "whatsapp_spends_mn_ad",
+        "added_spend_mn": 39.271816067884615,
+        "roi": 31.683438737462534,
+        "expected_kpi_uplift": 1244.266178495719
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+=== Model Diagnostics Summary ===
+Train: R²=0.748, RMSE=0.112
+Test: R²=-8.432, RMSE=0.070
+
+⚠ Suspicious ROI values detected:
+  google_display_spends_mn_ad: ROI=-55.15
